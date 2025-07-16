@@ -1,0 +1,1000 @@
+body::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+    background-color: transparent;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 0, 0, 0);
+}
+body::-webkit-scrollbar-track{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+p{
+    font-family: 'MuseoSansCyrl-300', sans-serif;
+    color: #333333;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'MuseoSansCyrl-500', sans-serif;
+    color: #333333;
+}
+
+/* Navbar */
+
+.navbar {
+  width: 100%;
+  background: white;
+  position: relative;
+}
+
+.navbar-container {
+  width: 100%;
+  margin: 0 auto;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding-right: 60px;
+}
+
+.brand-text {
+  position: relative;
+  margin-left: 120px;
+  margin-right: 57px;
+  font-family: 'MuseoSansCyrl-700', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #333333;
+  transition: all 0.2s ease;
+}
+
+.brand-text:hover{
+    color: #333333;
+    font-size: 17px;
+}
+
+.menu-items-list {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.menu-items-list li a {
+  font-family: 'MuseoSansCyrl-500', sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  color: #333333;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.menu-items-list li a:hover{
+    font-family: 'MuseoSansCyrl-700', sans-serif;
+    font-size: 17px;
+}
+
+.right-block {
+  position: relative;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.sign-in-btn {
+  background: #6248FF;
+  color: white;
+  font-family: 'MuseoSansCyrl-500', sans-serif;
+  font-size: 14px;
+  border-radius: 60px;
+  padding: 13px 24px;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.sign-in-btn:hover{
+  filter: brightness(120%);
+  color: white;
+}
+
+
+.sign-in-btn:active{
+  filter: brightness(90%);
+  color: white;
+}
+
+
+/* langauge dropdown */
+.language-choose {
+  position: relative;
+  width: auto;
+  cursor: pointer;
+  display: flex;
+ flex-direction: column;
+}
+
+.language-choose-div {
+border-radius: 60px;
+  padding: 10px 16px;
+ border: 1px solid black;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.language-name {
+  font-family: 'MuseoSansCyrl-500', sans-serif;
+  color: #333333;
+  margin-bottom: 0px;
+}
+
+.language-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  list-style: none;
+  border: 1px solid #ccc;
+  padding: 8px;
+  display: none;
+  border-radius: 4px;
+  z-index: 10;
+  min-width: 80px;
+}
+
+.language-choose.open .language-dropdown {
+  display: block;
+}
+
+.language-dropdown {
+  display: none;
+  flex-direction: column;
+  gap: 8px;
+}
+.language-choose.open .language-dropdown {
+  display: flex;
+}
+
+
+.hamburger {
+  display: none;
+  width: 18px;
+  height: 12px;
+  background: url('../icons/hamburger-menu-icon.svg') no-repeat center/contain;
+  cursor: pointer;
+}
+
+/* Mobile menu */
+.mobile-menu {
+  display: none;
+  background: white;
+  padding: 20px;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-menu ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.mobile-menu ul li a {
+  font-family: 'MuseoSansCyrl-500', sans-serif;
+  font-size: 15px;
+  color: #333333;
+  text-decoration: none;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.mobile-menu .language-dropdown {
+  position: static;
+  padding: 0;
+  margin-top: 8px;
+  display: none;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.mobile-menu .language-choose {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+
+.language-choose.open .language-dropdown {
+  display: flex;
+}
+
+/* Hiding mobile sign-in button */
+.sign-in-mobile {
+  display: none;
+}
+
+
+
+/*Start Trading Section*/
+
+.start-trading-section{
+    position: relative;
+    padding: 100px;
+    width: 100%;
+    height: auto;
+    background: #EEECFD;
+}
+
+.section-trading-container{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.trading-container{
+    position: relative;
+}
+
+.trade-title{
+    position: relative;
+    margin-bottom: 32px;
+    color: #333333;
+    font-family: 'MuseoSansCyrl-500', sans-serif;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: 0%;
+
+}
+
+.about-trading-text{
+    position: relative;
+    margin-bottom: 48px;
+    color: #4F4F4F;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+
+.btn-start-trading{
+    position: relative;
+    padding: 20px 64px;
+    border: 0px solid transparent;
+    border-radius: 60px;
+    background: #6248FF;
+    color: white;
+    font-family: 'MuseoSansCyrl-500', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.btn-start-trading:hover{
+    filter: brightness(120%);
+}
+
+.btn-start-trading:active{
+    filter: brightness(90%);
+}
+
+
+.start-trading-pic{
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    width: 482px;
+    height: 519px;
+}
+
+
+ /*Get Started Section*/
+
+  .get-started-section{
+    width: 100%;
+    padding: 140px 120px;
+  }
+
+  .get-started-title{
+    position: relative;
+    margin-bottom: 68px;
+    color: #333333;
+    font-family: 'MuseoSansCyrl-500', sans-serif;
+    font-size: 56px;
+    line-height: 66px;
+    letter-spacing: 0%;
+  }
+
+  .fast-easy-part{
+    background: #EEECFD;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+
+  .steps-container{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .step-1-container, .step-2-container, .step-3-container, .step-4-container{
+    width: 483px;
+    height: auto;
+    padding: 32px;
+    border: 2px solid #6248FF;
+    border-radius: 30px;
+  }
+
+  .step-num-name-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .step-num{
+    position: relative;
+    color: #6248FF;
+    font-family: 'MuseoSansCyrl-500', sans-serif;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+
+  .step-name{
+    position: relative;
+    color: #333333;
+    font-family: 'MuseoSansCyrl-500', sans-serif;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+
+  .about-step{
+    position: relative;
+    color: #4F4F4F;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+  }
+
+  .step-1-container{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+  }
+
+  .step-2-container{
+    position: absolute;
+    top: 156px;
+    right: 0px;
+  }
+
+  .step-3-container{
+    position: absolute;
+    top: 337px;
+    left: 0px;
+  }
+
+  .step-4-container{
+    position: absolute;
+    top: 517px;
+    right: 0px;
+  }
+
+  /*People Love Invest Section*/
+
+
+  .people-love-invest-section{
+    position: relative;
+    padding: 140px 120px;
+  }
+
+  .people-love-invest-section-container{
+    position: relative;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .left-ppl-love-invest-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 47px;
+
+  }
+
+  .ppl-love-invest-title{
+    position: relative;
+    color: #333333;
+    font-family: 'MuseoSansCyrl-600', sans-serif;
+    font-size: 56px;
+    line-height: 66%;
+    letter-spacing: 0%;
+  }
+
+  .buttons-change-people-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .btn-previous-person, .btn-next-person{
+    position: relative;
+    width: 48px;
+    height: 48px;
+    background: white;
+    border: 1px solid #E0E0E0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    transition: all 0.2s ease;
+  }
+
+  .btn-previous-person:hover, .btn-next-person:hover{
+     border: 1px solid #6248FF;
+  }
+
+  .btn-previous-person:active, .btn-next-person:active{
+     border: 1px solid #6248FF;
+     filter: brightness(90%);
+  }
+
+
+  .previous-person-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 24px;
+    height: 24px;
+    background: url('../icons/btn-previous-arrow.svg') no-repeat;
+    background-size: contain;
+  }
+
+  .next-person-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 24px;
+    height: 24px;
+    background: url('../icons/btn-next-arrow.svg') no-repeat;
+    background-size: contain;
+  }
+
+
+
+/* Phone (< 600px) */
+@media (max-width: 600px) {
+
+
+  .brand-text {
+    position: relative;
+    margin-left: 20px;
+    margin-right: 0px;
+  }
+
+  .navbar-container {
+  padding-right: 20px;
+  }
+
+
+
+  .menu-items-list {
+    display: none;
+  }
+
+  .sign-in-desktop-tablet {
+    display: none !important;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .mobile-menu.active {
+    display: block;
+  }
+
+  /* Showing sign-in button inside phone's menu */
+    .sign-in-mobile {
+    position: relative;
+    margin: 20px auto;
+    width: fit-content;
+    background: #6248FF;
+    border-radius: 60px;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    display: flex;
+    transition: all 0.2s ease;
+    }
+
+    .sign-in-mobile:hover {
+        filter: brightness(120%);
+        color: white;
+    }
+
+    .sign-in-mobile:active {
+        filter: brightness(90%);
+        color: white;
+    }
+
+
+   #languageToggle {
+    display: none !important;
+  }
+
+  .sign-up-mobile-text{
+    position: relative;
+    padding: 13px 24px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    color: white;
+    font-family: 'MuseoSansCyrl-500', sans-serif;
+    font-size: 14px;
+    margin-bottom: 0px;
+    transition: all 0.2s ease;
+  }
+
+  .sign-up-mobile-text:hover{
+    color: white;
+  }
+
+  .sign-up-mobile-text:active{
+    color: white;
+  }
+
+   /*Start Trading Section*/
+
+    .start-trading-section{
+    position: relative;
+    padding: 32px 20px 16px 20px;
+    padding-bottom: 24px;
+    width: 100%;
+    height: auto;
+    background: #EEECFD;
+    }
+
+    .section-trading-container{
+        position: relative;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 32px;
+    }
+
+    .trading-container{
+        position: relative;
+    }
+
+    .trade-title-mobile{
+        position: relative;
+        font-size: 40px;
+        line-height: 44px;
+        text-align: start;
+        position: relative;
+        color: #333333;
+        font-family: 'MuseoSansCyrl-500', sans-serif;
+        letter-spacing: 0%;
+
+    }
+
+    .about-trading-text-mobile{
+        position: relative;
+        text-align: start;
+        position: relative;
+        margin-top: 24px;
+        margin-bottom: 48px;
+        color: #4F4F4F;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0%;
+
+    }
+
+    .btn-start-trading{
+        position: relative;
+        display: flex;
+        padding: 20px 75px;
+        margin: 0 auto;
+    }
+
+
+    .start-trading-pic{
+        position: relative;
+        display: flex;
+        margin: 0 auto;
+        width: 280px;
+        height: 301px;
+    }
+
+  .about-trading-text-tablet{
+     display: none !important;
+  }
+
+  .trade-title{
+    display: none !important;
+  }
+
+  .about-trading-text{
+    display: none !important;
+  }
+
+   /*Get Started Section*/
+
+  .get-started-section{
+    width: 100%;
+    padding: 80px 20px;
+  }
+
+  .get-started-title-mobile{
+    width: 280px;
+    position: relative;
+    margin-bottom: 40px;
+    color: #333333;
+    font-family: 'MuseoSansCyrl-500', sans-serif;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 0%;
+  }
+
+  .get-started-title{
+    display: none !important;
+  }
+  .get-started-title-tablet{
+    display: none !important;
+  }
+
+  .steps-container{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+  }
+
+  .step-1-container, .step-2-container, .step-3-container, .step-4-container{
+    position: relative;
+    margin: 0 auto;
+    top: auto;
+    justify-content: center;
+    width: 280px;
+    height: auto;
+    padding: 24px;
+    border: 2px solid #6248FF;
+    border-radius: 30px;
+  }
+
+  .step-num-name-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .step-num{
+    position: relative;
+    color: #6248FF;
+    font-family: 'MuseoSansCyrl-500', sans-serif;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+
+  .step-name{
+    position: relative;
+    color: #333333;
+    font-family: 'MuseoSansCyrl-500', sans-serif;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+
+
+
+ 
+
+}
+
+/* Tablet (601px — 992px) */
+@media (min-width: 601px) and (max-width: 992px) {
+
+  .brand-text {
+    position: relative;
+    margin-left: 40px;
+    margin-right: 0px;
+  }
+
+  .navbar-container {
+    padding-right: 20px;
+  }
+
+  .right-block {
+    gap: 28px;
+  }
+
+  .menu-items-list {
+    display: none;
+  }
+
+  .sign-in-desktop-tablet {
+    display: inline-block;
+    transition: all 0.2s ease;
+  }
+
+  .sign-in-desktop-tablet:hover{
+    filter: brightness(120%);
+    color: white;
+  }
+
+  .sign-in-desktop-tablet:active{
+    filter: brightness(90%);
+    color: white;
+  }
+
+
+  .hamburger {
+    display: block;
+  }
+
+  .mobile-menu.active {
+    display: block;
+  }
+
+  /* Hiding sign-in on tablet */
+  .sign-in-mobile {
+    display: none !important;
+  }
+
+   #languageToggle {
+    display: none !important;
+  }
+
+    .start-trading-pic{
+    width: 418px;
+    height: 450px;
+    }
+
+    /*Start Trading Section*/
+
+    .start-trading-section{
+    position: relative;
+    padding: 40px;
+    padding-bottom: 24px;
+    width: 100%;
+    height: auto;
+    background: #EEECFD;
+    }
+
+    .section-trading-container{
+        position: relative;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 32px;
+    }
+
+    .trading-container{
+        position: relative;
+    }
+
+    .trade-title{
+        position: relative;
+        text-align: center;
+
+    }
+
+    .about-trading-text{
+        position: relative;
+        text-align: center;
+    }
+
+    .btn-start-trading{
+        position: relative;
+        display: flex;
+        margin: 0 auto;
+    }
+
+
+    .start-trading-pic{
+        position: relative;
+        display: flex;
+        margin: 0 auto;
+        width: 418px;
+        height: 450px;
+    }
+
+
+  .trade-title-mobile{
+    display: none !important;
+  }
+
+  .about-trading-text-mobile{
+    display: none !important;
+  }
+
+  
+  .about-trading-text{
+    display: none !important;
+  }
+
+
+.about-trading-text-tablet{
+    position: relative;
+    text-align: center;
+    margin-bottom: 48px;
+    color: #4F4F4F;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+
+
+   /*Get Started Section*/
+
+  .get-started-section{
+    width: 100%;
+    padding: 80px 20px;
+  }
+
+  .get-started-title-tablet{
+    position: relative;
+    margin-bottom: 56px;
+    color: #333333;
+    font-family: 'MuseoSansCyrl-500', sans-serif;
+    font-size: 56px;
+    line-height: 66px;
+    letter-spacing: 0%;
+  }
+
+  .get-started-title{
+    display: none !important;
+  }
+  .get-started-title-mobile{
+    display: none !important;
+  }
+
+  .steps-container{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+  }
+
+  .step-1-container, .step-2-container, .step-3-container, .step-4-container{
+    width: 329px;
+    height: auto;
+    padding: 32px;
+    border: 2px solid #6248FF;
+    border-radius: 30px;
+  }
+
+  .step-num-name-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .step-num{
+    position: relative;
+    color: #6248FF;
+    font-family: 'MuseoSansCyrl-500', sans-serif;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+
+  .step-name{
+    position: relative;
+    color: #333333;
+    font-family: 'MuseoSansCyrl-500', sans-serif;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+
+  .step-1-container{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+  }
+
+  .step-2-container{
+    position: absolute;
+    top: 169px;
+    right: 0px;
+  }
+
+  .step-3-container{
+    position: absolute;
+    top: 358px;
+    left: 0px;
+  }
+
+  .step-4-container{
+    position: absolute;
+    top: 548px;
+    right: 0px;
+  }
+
+}
+
+/* Desktop (> 992px) */
+@media (min-width: 993px) {
+  .sign-in-desktop-tablet {
+    display: inline-block;
+  }
+  .hamburger {
+    display: none;
+  }
+  .mobile-menu {
+    display: none !important;
+  }
+
+  .trade-title-mobile{
+    display: none !important;
+  }
+
+  .about-trading-text-mobile{
+    display: none !important;
+  }
+
+  .about-trading-text-tablet{
+     display: none !important;
+  }
+
+  .get-started-title-tablet{
+      display: none !important;
+  }
+
+   .get-started-title-mobile{
+      display: none !important;
+  }
+
+}
+
+  
