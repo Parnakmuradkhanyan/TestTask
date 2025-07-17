@@ -228,7 +228,6 @@ border-radius: 60px;
 }
 
 
-
 /*Start Trading Section*/
 
 .start-trading-section{
@@ -413,6 +412,7 @@ border-radius: 60px;
     width: 100%;
     position: relative;
     margin: 640px auto;
+    margin-bottom: 0px;
     padding: 140px 120px;
   }
 
@@ -611,6 +611,96 @@ border-radius: 60px;
     line-height: 100%;
     letter-spacing: 0%;
     margin-bottom: 0px;
+  }
+
+  /* Frequently Asked Questions Section */
+
+  .frequently-asked-questions-section{
+    position: relative;
+    padding: 140px 140px;
+    padding-top: 0px;
+  }
+
+  .freequently-asked-questions-title{
+    position: relative;
+    color: #333333;
+    font-family: 'MuseoSansCyrl-500', sans-serif;
+    font-size: 56px;
+    line-height: 66px;
+    letter-spacing: 0%;
+    margin-bottom: 0px;
+  }
+
+  .questions-container{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .question-container{
+    position: relative;
+    margin: 0 auto;
+    width: 995px;
+    padding: 32px 40px;
+    border: 2px solid #6248FF;
+    border-radius: 20px;
+  }
+
+  .question-text-button-see-answer-container{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .question-text{
+    position: relative;
+    display: flex;
+    margin-left: 0px;
+    color: #333333;
+    font-family: 'MuseoSansCyrl-500', sans-serif;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 0px;
+  }
+
+  .see-answwer-btn{
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    background: transparent;
+    border: 0px solid transparent;
+  }
+
+  .see-answer-btn-icon {
+    width: 32px;
+    height: 32px;
+    background-image: url('../icons/more-info-btn.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: background-image 0.3s ease;
+  }
+
+  .answer-text{
+    width: 750px;
+    position: relative;
+    margin-top: 24px;
+    color: #4F4F4F;
+    font-family: 'Montserrat', sans;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: start;
+  }
+
+  .answer-text{
+    display: none;
   }
 
 
@@ -996,6 +1086,54 @@ border-radius: 60px;
     background-size: contain;
   }
 
+  
+  /* Frequently Asked Questions Section */
+
+   .frequently-asked-questions-section{
+    position: relative;
+    padding: 80px 20px;
+    padding-top: 60px;
+  }
+
+  .freequently-asked-questions-title{
+    position: relative;
+    width: 280px;
+    margin-left: 12px;
+    color: #333333;
+    font-family: 'MuseoSansCyrl-500', sans-serif;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 0%;
+    margin-bottom: 0px;
+  }
+
+  .questions-container{
+    margin-top: 32px;
+
+  }
+
+  .question-container{
+    width: 280px;    
+    padding: 24px 16px;
+  }
+
+  .question-text{
+    font-size: 18px;
+  }
+
+  .answer-text{
+    width: 240px;
+    position: relative;
+    margin-top: 24px;
+    color: #4F4F4F;
+    font-family: 'Montserrat', sans;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: start;
+  }
+
+
 
 }
 
@@ -1242,6 +1380,7 @@ border-radius: 60px;
     width: 100%;
     position: relative;
     margin: 120px auto;
+    margin-bottom: 0px;
   }
 
   .ppl-love-invest-title-tablet{
@@ -1378,6 +1517,34 @@ border-radius: 60px;
 
   .people-love-invest-section-container-mobile{
     display: none !important;
+  }
+
+  /* Frequently Asked Questions Section */
+
+   .frequently-asked-questions-section{
+    position: relative;
+    padding: 120px 40px;
+    padding-top: 0px;
+  }
+
+  .questions-container{
+    margin-top: 48px;
+  }
+
+  .question-container{
+    width: 688px;
+  }
+
+  .answer-text{
+    width: 558px;
+    position: relative;
+    margin-top: 24px;
+    color: #4F4F4F;
+    font-family: 'Montserrat', sans;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: start;
   }
 
 
