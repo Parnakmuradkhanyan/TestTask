@@ -327,6 +327,7 @@ border-radius: 60px;
 
   .fast-easy-part{
     background: #EEECFD;
+    color: #373546;
     padding-left: 2px;
     padding-right: 2px;
   }
@@ -409,20 +410,23 @@ border-radius: 60px;
 
 
   .people-love-invest-section{
+    width: 100%;
     position: relative;
+    margin: 640px auto;
     padding: 140px 120px;
   }
 
   .people-love-invest-section-container{
+    width: 100%;
     position: relative;
     background: white;
     display: flex;
     flex-direction: row;
-    align-items: center;
   }
 
   .left-ppl-love-invest-container{
     position: relative;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
     gap: 47px;
@@ -434,7 +438,7 @@ border-radius: 60px;
     color: #333333;
     font-family: 'MuseoSansCyrl-600', sans-serif;
     font-size: 56px;
-    line-height: 66%;
+    line-height: 66px;
     letter-spacing: 0%;
   }
 
@@ -472,7 +476,7 @@ border-radius: 60px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-40%,-50%);
     width: 24px;
     height: 24px;
     background: url('../icons/btn-previous-arrow.svg') no-repeat;
@@ -483,13 +487,131 @@ border-radius: 60px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-30%,-50%);
     width: 24px;
     height: 24px;
     background: url('../icons/btn-next-arrow.svg') no-repeat;
     background-size: contain;
   }
 
+  .right-ppl-love-invest-container{
+    position: relative;
+  }
+
+  .person-info-container{
+    position: relative;
+    margin-top: 27px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .person-photo{
+    position: relative;
+    width: 73px;
+    height: 73px;
+    border-radius: 50%;
+    background: url('../img/albert-abello.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .person-name-job-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .person-name{
+    position: relative;
+    color: #333333;
+    font-family: 'MuseoSansCyrl-500', sans-serif;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0%;
+    margin-bottom: 0px;
+  }
+
+  .person-job{
+    position: relative;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    margin-bottom: 0px;
+  }
+
+  .person-review-container{
+    position: relative;
+    margin-top: 17px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .symbol-of-review{
+    position: absolute;
+    top: 117px;
+    left: -50px;
+    width: 33px;
+    height: 27px;
+    background: url('../icons/person-review-symbol.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .person-review{
+    width: 585px;
+    position: relative;
+    color: #333333;
+    font-family: 'MuseoSansCyrl-500', sans-serif;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 0px;
+  }
+
+  .person-num-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .number-of-person{
+    position: relative;
+    color: #6248FF;
+    font-family: 'MuseoSansCyrl-500', sans-serif;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 0px;
+  }
+
+  .number-of-persons-symbol{
+    position: relative;
+    color: #6248FF;
+    font-family: 'MuseoSansCyrl-500', sans-serif;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 0px;
+  }
+
+  .number-of-persons{
+    position: relative;
+    color: #6248FF;
+    font-family: 'MuseoSansCyrl-500', sans-serif;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 0px;
+  }
 
 
 /* Phone (< 600px) */
@@ -726,9 +848,154 @@ border-radius: 60px;
     letter-spacing: 0%;
   }
 
+  /* People Love Invest*/
+
+  .people-love-invest-section-container{
+    display: none !important;
+  }
+
+  .people-love-invest-section-container-tablet{
+    display: none !important;
+  }
+
+ .people-love-invest-section{
+  margin-top: 0px;
+    padding: 0px 20px;
+  }
+
+  .ppl-love-invest-title-mobile{
+    position: relative;
+    color: #333333;
+    font-family: 'MuseoSansCyrl-600', sans-serif;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 0%;
+    margin-bottom: 40px;
+  }
+
+  .person-mobile-container{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .person-info-container-mobile{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .person-photo{
+    margin: 0 auto;
+  }
+
+  .person-name-job-container{
+    justify-content: center;
+  }
+
+  .person-name, .person-job{
+    text-align: center;
+  }
+
+.symbol-of-review-mobile{
+    position: relative;
+    margin: 24px auto;
+    width: 33px;
+    height: 27px;
+    background: url('../icons/person-review-symbol.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .person-review{
+    position: relative;
+    margin: 0 auto;
+    width: 280px;
+    text-align: center;
+  }
+
+  .change-person-container{
+    width: 100%;
+    position: relative;
+    margin: 24px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .person-num-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .number-of-person, .number-of-persons-symbol, .number-of-persons{
+    text-align: center;
+  }
+  
+  .btn-previous-person-mobile{
+    position: relative;
+    display: flex;
+    margin-left: 0px;
+    width: 48px;
+    height: 48px;
+    background: white;
+    border: 1px solid #E0E0E0;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+  }
+
+  .btn-next-person-mobile{
+    position: relative;
+    display: flex;
+    width: 48px;
+    height: 48px;
+    background: white;
+    border: 1px solid #E0E0E0;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+  }
 
 
- 
+  .btn-previous-person-mobile:hover, .btn-next-person-mobile:hover{
+     border: 1px solid #6248FF;
+  }
+
+  .btn-previous-person-mobile:active, .btn-next-person-mobile:active{
+     border: 1px solid #6248FF;
+     filter: brightness(90%);
+  }
+
+
+  .previous-person-icon-mobile{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%,-50%);
+    width: 24px;
+    height: 24px;
+    background: url('../icons/btn-previous-arrow.svg') no-repeat;
+    background-size: contain;
+  }
+
+  
+  .next-person-icon-mobile{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%,-50%);
+    width: 24px;
+    height: 24px;
+    background: url('../icons/btn-next-arrow.svg') no-repeat;
+    background-size: contain;
+  }
+
 
 }
 
@@ -961,6 +1228,159 @@ border-radius: 60px;
     right: 0px;
   }
 
+  /* People Love Invest Section*/
+
+  .people-love-invest-section{
+    padding: 100px 40px;
+  }
+
+  .people-love-invest-section-container{
+    display: none !important;
+  }
+
+  .people-love-invest-section-container-tablet{
+    width: 100%;
+    position: relative;
+    margin: 120px auto;
+  }
+
+  .ppl-love-invest-title-tablet{
+    position: relative;
+    color: #333333;
+    font-family: 'MuseoSansCyrl-600', sans-serif;
+    font-size: 56px;
+    line-height: 66px;
+    letter-spacing: 0%;
+    margin-bottom: 56px;
+  }
+
+  .person-tablet-container{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .person-info-container-tablet{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .person-photo{
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .person-name-job-container{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .person-name, .person-job{
+    text-align: center;
+  }
+
+  .symbol-of-review-tablet{
+    position: relative;
+    margin: 16px auto;
+    width: 33px;
+    height: 27px;
+    background: url('../icons/person-review-symbol.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .person-review{
+    position: relative;
+    margin: 0 auto;
+    width: 508px;
+    text-align: center;
+  }
+
+  .person-num-container{
+    position: relative;
+    margin: 32px auto;
+    text-align: center;
+  }
+
+  .buttons-change-people-container-tablet{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .btn-previous-person-tablet{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 48px;
+    height: 48px;
+    background: white;
+    border: 1px solid #E0E0E0;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+  }
+
+  .btn-next-person-tablet{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 48px;
+    height: 48px;
+    background: white;
+    border: 1px solid #E0E0E0;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+  }
+
+  .btn-previous-person-tablet:hover, .btn-next-person-tablet:hover{
+     border: 1px solid #6248FF;
+  }
+
+  .btn-previous-person-tablet:active, .btn-next-person-tablet:active{
+     border: 1px solid #6248FF;
+     filter: brightness(90%);
+  }
+
+
+  .previous-person-icon-tablet{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%,-50%);
+    width: 24px;
+    height: 24px;
+    background: url('../icons/btn-previous-arrow.svg') no-repeat;
+    background-size: contain;
+  }
+
+  
+  .next-person-icon-tablet{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%,-50%);
+    width: 24px;
+    height: 24px;
+    background: url('../icons/btn-next-arrow.svg') no-repeat;
+    background-size: contain;
+  }
+
+  .people-love-invest-section-container-mobile{
+    display: none !important;
+  }
+
+
 }
 
 /* Desktop (> 992px) */
@@ -993,6 +1413,14 @@ border-radius: 60px;
 
    .get-started-title-mobile{
       display: none !important;
+  }
+
+  .people-love-invest-section-container-tablet{
+    display: none !important;
+  }
+
+  .people-love-invest-section-container-mobile{
+    display: none !important;
   }
 
 }

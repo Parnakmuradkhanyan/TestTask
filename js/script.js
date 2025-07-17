@@ -1,3 +1,5 @@
+/* Navbar */
+
 const hamburger = document.getElementById('hamburger');
 const mobileMenu = document.getElementById('mobileMenu');
 
@@ -24,3 +26,5 @@ document.addEventListener('click', () => {
   languageToggle?.classList.remove('open');
   languageToggleMobile?.classList.remove('open');
 });
+
+/* People Love Invest Section */
