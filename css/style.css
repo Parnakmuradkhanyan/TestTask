@@ -703,6 +703,380 @@ border-radius: 60px;
     display: none;
   }
 
+  /* Contact Us Section */
+
+  .contact-us-section{
+    background: #EEECFD;
+    position: relative;
+    padding: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .company-contact-info-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-us-title{
+    position: relative;
+    color: #333333;
+    font-family: 'MuseoSansCyrl-500', sans-serif;
+    font-size: 56px;
+    line-height: 66px;
+    letter-spacing: 0%;
+  }
+
+  .contact-us-text{
+    width: 483px;
+    position: relative;
+    margin-top: 32px;
+    color: #4F4F4F;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+  }
+
+  .site-is-owned-contact-text{
+    width: 483px;
+    position: relative;
+    margin-top: 48px;
+    color: #4F4F4F;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+  }
+
+  .contacts-of-company-container{
+    position: relative;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .phone-container, .email-container, .address-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .phone-title, .email-title, .address-title{
+    position: relative;
+    color: #333333;
+    font-family: 'MuseoSansCyrl-500', sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    margin-bottom: 0px;
+  }
+
+  .phone-num-link, .email-link{
+    position: relative;
+    color: #4F4F4F;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+    transition: all 0.2s ease;
+    text-decoration: none;
+  }
+
+  .phone-num-link:hover, .email-link:hover{
+    color: #4F4F4F;
+    filter: brightness(90%);
+    font-size: 18px;
+  }
+
+  .phone-num-link:active, .email-link:active{
+    color: #4F4F4F;
+    filter: brightness(70%);
+  }
+  
+  .address-text{
+    width: 483px;
+    position: relative;
+    color: #4F4F4F;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+  }
+
+  .user-contact-info-form-container{
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-top: 14px;
+    padding: 80px;
+    background: white;
+    border-radius: 20px;
+    border: 2px solid #6248FF;
+  }
+
+  .user-contact-info-form{
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -35%);
+  }
+
+  .inputs-container{
+    width: 425px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .user-name-input, .user-email-input{
+    position: relative;
+    width: 425px;
+    padding: 7px 16px;
+    border: 1px solid #E0E0E0;
+    border-radius: 3px;
+    color: #4F4F4F;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .message-text-area{
+    position: relative;
+    width: 425px;
+    padding: 7px 16px;
+    border: 1px solid #E0E0E0;
+    border-radius: 3px;
+    color: #4F4F4F;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .send-contact-info-btn{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    background: #6248FF;
+    border: 0px solid transparent;
+    border-radius: 60px;
+    padding: 20px 64px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'MuseoSansCyrl-500', sans-serif;
+    font-size: 16px;
+    line-height: 14px;
+    letter-spacing: 3%;
+    transition: all 0.2s ease;
+  }
+
+  .send-contact-info-btn:hover{
+    filter: brightness(120%);
+    color: white;
+  }
+
+  .send-contact-info-btn:active {
+    filter: brightness(90%);
+    color: white;
+  }
+
+  /* Footer */
+
+  .footer{
+    position: relative;
+    padding: 32px 120px;
+
+  }
+
+  .footer-content-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 48px;
+  }
+
+  .logo-home-footer{
+    position: relative;
+    color: black;
+    font-family: 'MuseoSansCyrl-700', sans;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+  }
+
+  .logo-home-footer:hover{
+    color: black;
+    filter: brightness(120%);
+    font-size: 16px;
+  }
+
+  .logo-home-footer:active{
+    color: black;
+    filter: brightness(140%);
+    font-size: 15px;
+  }
+
+
+  .risk-warninig-container{
+    position: relative;
+    margin-left: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .risk-warnining-title{
+    position: relative;
+    color: #333333;
+    font-family: 'MuseoSansCyrl-500', sans;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    margin-bottom: 0px;
+  }
+
+  .risk-warning-text{
+    position: relative;
+    width: 380px;
+    color: #4F4F4F;
+    font-family: 'Montserrat', sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    margin-bottom: 0px;
+  }
+
+  .legal-disclaimer-container{
+    position: relative;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .legal-disclaimer-title{
+    position: relative;
+    color: #333333;
+    font-family: 'MuseoSansCyrl-500', sans;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    margin-bottom: 0px;
+  }
+
+  .legal-disclaimer-text{
+    position: relative;
+    width: 380px;
+    color: #4F4F4F;
+    font-family: 'Montserrat', sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    margin-bottom: 0px;
+  }
+
+  .navbar-elements-footer{
+    position: relative;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 24px;
+  }
+
+
+  .navbar-element-footer-link{
+    position: relative;
+    color: #333333;
+    font-family: 'MuseoSansCyrl-500', sans;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    margin-bottom: 0px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+
+  .copy-right-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .navbar-element-footer-link:hover{
+    color: black;
+    filter: brightness(120%);
+    font-size: 16px;
+  }
+
+  .navbar-element-footer-link:active{
+    color: black;
+    filter: brightness(140%);
+    font-size: 15px;
+  }
+
+
+
+  .copy-right-text, .terms-and-conditions-text, .privacy-policy-text, .risk-warinings-text, .anti-money-laundering{
+    position: relative;
+    color: #828282;
+    font-family: 'Montserrat', sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+    margin-bottom: 0px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+
+  .terms-and-conditions-text{
+    position: relative;
+    margin-left: 132px;
+  }
+
+  .privacy-policy-text{
+    position: relative;
+    margin-left: 66px;
+  }
+
+  .risk-warinings-text{
+    position: relative;
+    margin-left: 66px;
+  }
+
+  .anti-money-laundering{
+    position: relative;
+    display: flex;
+    margin-left: 66px;
+  }
+
+  .copy-right-text:hover, .terms-and-conditions-text:hover, .privacy-policy-text:hover, .risk-warinings-text:hover, .anti-money-laundering:hover{
+    color: #828282;
+    filter: brightness(80%);
+  }
+
+   .copy-right-text:active, .terms-and-conditions-text:active, .privacy-policy-text:active, .risk-warinings-text:active, .anti-money-laundering:active{
+    color: #828282;
+    filter: brightness(70%);
+   }
+
 
 /* Phone (< 600px) */
 @media (max-width: 600px) {
@@ -1133,7 +1507,75 @@ border-radius: 60px;
     text-align: start;
   }
 
+    /* Contact Us Section */
 
+  .contact-us-section{
+    padding: 48px 20px;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .company-contact-info-container{
+    justify-content: center;
+  }
+
+  .contact-us-title{
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .contact-us-text{
+    width: 280px;
+    margin-top: 24px;
+    margin-bottom: 0px;
+  }
+
+  .site-is-owned-contact-text{
+    width: 280px;
+    margin-top: 24px;
+    margin-bottom: 0px;
+  }
+
+  .contacts-of-company-container{
+    margin-top: 17px;
+  }
+
+  .address-text{
+    width: 280px;
+  }
+
+  .user-contact-info-form-container{
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 48px;
+    padding: 48px 16px;
+    background: white;
+    border-radius: 20px;
+    border: 2px solid #6248FF;
+  }
+
+  .user-contact-info-form{
+    position: relative;
+    top: 50%;
+
+    transform: translate(0%, 5%);
+  }
+
+  .inputs-container{
+    width: 248px;
+  }
+
+
+  .user-name-input, .user-email-input{
+    width: 248px;
+  }
+
+  .message-text-area{
+    width: 248px;
+  }
+
+  
 
 }
 
@@ -1546,6 +1988,53 @@ border-radius: 60px;
     letter-spacing: 0%;
     text-align: start;
   }
+
+  /* Contact Us Section */
+
+  .contact-us-section{
+    padding: 48px 130px;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .company-contact-info-container{
+    justify-content: center;
+  }
+
+  .contact-us-title{
+    text-align: center;
+  }
+
+  .contact-us-text{
+    width: 508px;
+    margin-top: 32px;
+  }
+
+  .site-is-owned-contact-text{
+    width: 508px;
+    margin-top: 32px;
+  }
+
+  .user-contact-info-form-container{
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-top: 48px;
+    padding: 80px 42px;
+    background: white;
+    border-radius: 20px;
+    border: 2px solid #6248FF;
+  }
+
+  .user-contact-info-form{
+    position: relative;
+    top: 50%;
+    transform: translate(0%, 5%);
+  } 
+
+  /* Footer */
+
+  
 
 
 }
