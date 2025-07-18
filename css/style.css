@@ -712,6 +712,7 @@ border-radius: 60px;
     width: 100%;
     display: flex;
     flex-direction: row;
+    padding-left: 132px;
   }
 
   .company-contact-info-container{
@@ -1575,6 +1576,109 @@ border-radius: 60px;
     width: 248px;
   }
 
+  /* Footer */
+
+  .footer-content-container{
+    display: none !important;
+  }
+
+  .copy-right-container{
+    display: none !important;
+  }
+
+  .footer{
+    padding: 46px 20px 32px 20px;
+  }
+
+  .footer-content-container-tablet-phone{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .logo-home-footer-tablet-phone{
+    position: relative;
+    color: black;
+    font-family: 'MuseoSansCyrl-700', sans;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+    text-align: center;
+  }
+
+    .logo-home-footer-tablet-phone:hover{
+    color: black;
+    filter: brightness(120%);
+    font-size: 16px;
+  }
+
+  .logo-home-footer-tablet-phone:active{
+    color: black;
+    filter: brightness(140%);
+    font-size: 15px;
+  }
+
+
+  .navbar-elements-footer{
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 32px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+
+  .risk-warninig-container{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 32px;
+  }
+
+  
+  .risk-warnining-title{
+    width: 280px;
+  }
+
+  .risk-warning-text{
+    width: 280px;
+  }
+
+  .legal-disclaimer-container{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 24px;
+  }
+
+  .legal-disclaimer-text{
+    width: 280px;
+  }
+
+  .legal-disclaimer-title{
+    width: 280px;
+  }
+
+  .copy-right-container-tablet-phone{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+
+  }
+
+  .copy-right-text, .terms-and-conditions-text, .privacy-policy-text, .risk-warinings-text, .anti-money-laundering{
+    display: block;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+
   
 
 }
@@ -2034,7 +2138,109 @@ border-radius: 60px;
 
   /* Footer */
 
+  .footer-content-container{
+    display: none !important;
+  }
+
+  .copy-right-container{
+    display: none !important;
+  }
+
+  .footer{
+    padding: 62px 40px 48px 40px;
+  }
+
+  .footer-content-container-tablet-phone{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .logo-home-footer-tablet-phone{
+    position: relative;
+    color: black;
+    font-family: 'MuseoSansCyrl-700', sans;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+    text-align: center;
+  }
+
+    .logo-home-footer-tablet-phone:hover{
+    color: black;
+    filter: brightness(120%);
+    font-size: 16px;
+  }
+
+  .logo-home-footer-tablet-phone:active{
+    color: black;
+    filter: brightness(140%);
+    font-size: 15px;
+  }
+
+
+  .navbar-elements-footer{
+    flex-direction: row;
+    gap: 47px;
+    align-items: center;
+    margin-top: 54px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+
+  .risk-warninig-container{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 40PX;
+  }
+
   
+  .risk-warnining-title{
+    text-align: center;
+  }
+
+  .risk-warning-text{
+    width: 508px;
+  }
+
+  .legal-disclaimer-container{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 32px;
+  }
+
+  .legal-disclaimer-text{
+    width: 508px;
+  }
+
+  .legal-disclaimer-title{
+    text-align: center;
+  }
+
+  .copy-right-container-tablet-phone{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+
+  }
+
+    .copy-right-text, .terms-and-conditions-text, .privacy-policy-text, .risk-warinings-text, .anti-money-laundering{
+      display: block;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+
+
 
 
 }
@@ -2076,6 +2282,14 @@ border-radius: 60px;
   }
 
   .people-love-invest-section-container-mobile{
+    display: none !important;
+  }
+
+  .footer-content-container-tablet-phone{
+    display: none !important;
+  }
+
+  .copy-right-container-tablet-phone{
     display: none !important;
   }
 
