@@ -405,6 +405,39 @@ border-radius: 60px;
     right: 0px;
   }
 
+  .line-1-div{
+    position: absolute;
+    top: 111.5px;
+    left: 483px;
+    width: 604px;
+    height: 44px;
+    border-top: 3px dotted #6248FF;
+    border-right: 3px dotted #6248FF;
+    border-top-right-radius: 30px;
+  }
+
+  .line-2-div{
+    position: absolute;
+    top: 282.5px;
+    right: 483px;
+    width: 604px;
+    height: 55px;
+    border-top: 3px dotted #6248FF;
+    border-left: 3px dotted #6248FF;
+    border-top-left-radius: 30px;
+  }
+
+  .line-3-div{
+    position: absolute;
+    top: 463.5px;
+    left: 483px;
+    width: 604px;
+    height: 55px;
+    border-top: 3px dotted #6248FF;
+    border-right: 3px dotted #6248FF;
+    border-top-right-radius: 30px;
+  }
+
   /*People Love Invest Section*/
 
 
@@ -1288,6 +1321,10 @@ border-radius: 60px;
     border-radius: 30px;
   }
 
+  .line-1-div, .line-2-div, .line-3-div, .line-4-div{
+    display: none !important;
+  }
+
   .step-num-name-container{
     position: relative;
     display: flex;
@@ -1912,6 +1949,41 @@ border-radius: 60px;
     right: 0px;
   }
 
+  
+  .line-1-div{
+    position: absolute;
+    top: 126.5px;
+    left: 329px;
+    width: 233.5px;
+    height: 44px;
+    border-top: 3px dotted #6248FF;
+    border-right: 3px dotted #6248FF;
+    border-top-right-radius: 30px;
+  }
+
+  .line-2-div{
+    position: absolute;
+    top: 310,5px;
+    right: 329px;
+    width: 233.5px;
+    height: 77px;
+    border-top: 3px dotted #6248FF;
+    border-left: 3px dotted #6248FF;
+    border-top-left-radius: 30px;
+  }
+
+  .line-3-div{
+    position: absolute;
+    top: 499.5px;
+    left: 329px;
+    width: 233.5px;
+    height: 50px;
+    border-top: 3px dotted #6248FF;
+    border-right: 3px dotted #6248FF;
+    border-top-right-radius: 30px;
+  }
+
+
   /* People Love Invest Section*/
 
   .people-love-invest-section{
@@ -2238,10 +2310,6 @@ border-radius: 60px;
     margin-left: 0px;
     margin-right: 0px;
   }
-
-
-
-
 
 }
 
