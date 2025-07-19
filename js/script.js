@@ -42,21 +42,21 @@ const people = [
     job: 'Lead Designer',
     review: 'It’s revolutionized our workflow and made team collaboration 10x easier.',
     number: '02',
-    photo: 'url(../img/maria-brown.jpg)'
+    photo: 'url(./img/maria-brown.jpg)'
   },
   {
     name: 'Tom Chen',
     job: 'Marketing Expert',
     review: 'We’ve doubled our campaign reach using Big Invest. Truly a game-changer.',
     number: '03',
-    photo: 'url(../img/tom-chen.jpg)'
+    photo: 'url(./img/tom-chen.jpg)'
   },
   {
     name: 'Lucy Smith',
     job: 'Startup Founder',
     review: 'From 0 to 1000 customers in two months. Enough said.',
     number: '04',
-    photo: 'url(../img/lucy-smith.jpg)'
+    photo: 'url(./img/lucy-smith.jpg)'
   }
 ];
 
@@ -121,10 +121,10 @@ toggleButtons.forEach(button => {
 
     if (isVisible) {
       answerText.style.display = 'none';
-      icon.style.backgroundImage = "url('../icons/more-info-btn.svg')";
+      icon.style.backgroundImage = "url('./icons/more-info-btn.svg')";
     } else {
       answerText.style.display = 'block';
-      icon.style.backgroundImage = "url('../icons/close-info-btn.svg')";
+      icon.style.backgroundImage = "url('./icons/close-info-btn.svg')";
     }
   });
 });
