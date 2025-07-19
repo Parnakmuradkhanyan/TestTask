@@ -35,7 +35,7 @@ const people = [
     job: 'Director of Growth',
     review: 'This magical product actually works! It has radically changed the way we build our audiences. Increasing new customer sales by 6x in our most mature market.',
     number: '01',
-    photo: 'url(../img/albert-abello.svg)'
+    photo: 'url(./img/albert-abello.svg)'
   },
   {
     name: 'Maria Brown',
